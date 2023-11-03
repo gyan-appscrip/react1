@@ -1,0 +1,1 @@
+// export const PROFILEICON = "/banner/banner1.jpg"
