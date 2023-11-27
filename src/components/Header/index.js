@@ -5,12 +5,14 @@ import ShoppingCartOutlinedIcon from '@mui/icons-material/ShoppingCartOutlined';
 
 import './index.css'
 
+const logo = "https://trulyfreehome.com/img/logo-new.png";
+
 function Header() {
     return ( 
         <div className='header'>
             <div className='left'>
-                <div className='menuIcon'><MenuIcon/></div>
-                <div className='logo'>LOGO</div>
+                {/* <div className='menuIcon'><MenuIcon/></div> */}
+                <div className='logo'><img src={logo} alt="Logo" /></div>
             </div>
             <div className='right'>
                 <div className='header-search'>   

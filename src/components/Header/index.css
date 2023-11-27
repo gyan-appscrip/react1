@@ -1,6 +1,6 @@
 .header{
     justify-content: space-between;
-    padding: 20px 25px;
+    padding: 10px 25px;
 }
 .header,.left,.right{
     display: flex;
@@ -11,6 +11,8 @@
 
 .menuIcon svg{ 
     vertical-align: middle;
+    width: 35px;
+    height: 35px;
 }
 .logo{
     font-size: 24px;

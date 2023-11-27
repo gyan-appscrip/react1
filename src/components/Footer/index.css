@@ -1,0 +1,108 @@
+.footer {
+    background-color: #2b5482;
+    padding: 60px 0 0;
+    color: white;
+    font-family: Poppins,sans-serif;
+    text-align: left;
+}
+.footer .logo{
+    margin-bottom: 30px;
+}
+
+.footerContent p{
+    font-size: 14px;
+}
+.footerText{
+    margin-inline: -12px;
+}
+
+.footer-menu-col {
+    max-width: calc(33.33333% - 50px);
+    padding-inline: 12px;
+}
+.footer-menu {
+    justify-content: space-between;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.container_fluid {
+    padding: 0 25px;
+}
+.custom_gap {
+    padding-left: 80px;
+    padding-right: 80px;
+}
+
+.footer h3{
+    color: white;
+    font-weight: 400;
+    font-size: 22px;
+    margin-bottom: 15px;
+}
+
+.footer-menu-col2 {
+    min-width: calc(33.33333% + 50px);
+    padding-inline: 12px;
+}
+
+.footer ul{
+    padding: 0;
+    margin: 0;
+}
+
+.footer li{
+    list-style-type: none;
+    vertical-align: baseline;
+    font-size: 14px;
+    margin-bottom: 18px;
+}
+
+.newsletterBox .input-group .form-control {
+    background-color: transparent;
+    border-color: #fff;
+    padding: 12px 15px;
+    margin-right: 0;
+    border-radius: 4px!important;
+    color: #8595a3;
+    font-size: 16px;
+    height: 48.67px;
+}
+
+
+.footer h4{
+    font-size: 16px;
+    margin-bottom: 15px;
+}
+
+.btn{
+    background: transparent;
+    border-color: #fff;
+    padding: 4px 25px;
+}
+
+.btn svg{
+    font-size: 30px;
+    color: #d5d5d5;
+}
+
+.social_icon svg{
+    margin-right: 8px;
+    font-size: 35px;
+}
+
+.copyRight {
+    padding: 25px 0;
+    margin-top: 30px;
+}
+.copyRight p {
+    color: #fff;
+    margin-bottom: 0;
+    font-size: 13px;
+}
+
+@media screen and (max-width: 1440px) {
+    .custom_gap {
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+}
